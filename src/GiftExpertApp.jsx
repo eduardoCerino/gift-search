@@ -16,7 +16,7 @@ const GiftExpertApp = () => {
         <div className="header">
             <div className="title_gif">
                 <h2>Powered by</h2>
-                <img src="../src/assets/Giphy-logo.svg" alt="giphy logo" />    
+                <img src="../src/assets/Giphy-logo.svg" alt="giphy logo." />    
             </div>
 
             <div className="search">
