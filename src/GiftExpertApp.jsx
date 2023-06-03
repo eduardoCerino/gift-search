@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import { AddCategory, GiftGrid } from './components'
 
+
 const GiftExpertApp = () => {
 
     const [categories, setCategories] = useState(['OnePunch' ])
@@ -16,7 +17,7 @@ const GiftExpertApp = () => {
         <div className="header">
             <div className="title_gif">
                 <h2>Powered by</h2>
-                <img src="../src/assets/Giphy-logo.svg" alt="giphy logo." />    
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Giphy-logo.svg" alt="giphy logo." />    
             </div>
 
             <div className="search">
