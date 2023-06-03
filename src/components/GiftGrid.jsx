@@ -11,7 +11,7 @@ export const GiftGrid = ({category}) => {
         <h2>{category}</h2>
 
         {
-          isLoading && <h2> Cargando..</h2>
+          isLoading && <h2> Loading..</h2>
         }
 
         <div className="card-grid">

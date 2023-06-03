@@ -11,10 +11,20 @@ const GiftExpertApp = () => {
     }
 
   return (
-    <>
-    <h1> Buscar GIFS</h1>
-        <AddCategory onNewCategory={ onAddCategory} />
+    <div className='main'>
 
+        <div className="header">
+            <div className="title_gif">
+                <h2>Powered by</h2>
+                <img src="../src/assets/Giphy-logo.svg" alt="giphy logo" />    
+            </div>
+
+            <div className="search">
+                <AddCategory onNewCategory={ onAddCategory} />
+            </div>
+        </div>
+
+        <div className="content">
             {
                 categories.map(category => (
                     <GiftGrid
@@ -23,7 +33,10 @@ const GiftExpertApp = () => {
                     />
                 ))
             }
-    </>
+        </div>
+    
+
+    </div>
   )
 }
 

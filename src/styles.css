@@ -32,6 +32,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 9px;
   }
   
   .card {
@@ -61,3 +64,23 @@
   .card img {
     width: 100%;
   }
+
+  .title_gif img{
+    width: 10rem;
+  }
+
+  .title_gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+  }
+
+
+ .content{
+  margin-top: 7rem;
+ }
+
+
+ 
